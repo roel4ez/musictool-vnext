@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src",
+    "app.py"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".venv"
+  ],
+  "typeCheckingMode": "basic",
+  "pythonVersion": "3.9",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportUnusedImport": true,
+  "reportUnusedClass": true,
+  "reportUnusedFunction": true,
+  "reportDuplicateImport": true,
+  "reportGeneralTypeIssues": true,
+  "reportOptionalMemberAccess": true,
+  "reportOptionalSubscript": true,
+  "reportPrivateImportUsage": false
+}

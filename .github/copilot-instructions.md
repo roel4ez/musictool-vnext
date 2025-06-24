@@ -25,3 +25,13 @@ Architectural Decision Records (ADRs) in the `docs/adr` directory.
 - Work in small, incremental steps.
 - Write clean, maintainable code with appropriate comments.
 - Provide unit tests for new features and critical code paths.
+
+Use `makefile` for common tasks and commands, such as running tests, linting, and formatting.
+
+### Python
+
+- use `ruff` for linting and style checks.
+- use `uv` for dependency management.
+- use `pyright` for type checking.
+
+Make sure to run lnting and tests before submitting any code changes.
